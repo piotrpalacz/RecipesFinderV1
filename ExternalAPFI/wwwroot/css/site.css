@@ -1,18 +1,148 @@
-﻿html {
-  font-size: 14px;
+﻿a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+/*.footer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}*/
+
+@media screen and (max-device-width: 600px) {
+  body {
+    width: 100%;
+    height: 100%;
+    background-image: url('/static/login-page-bground-photo-opacity40.png');
+    background-size: 100%;
+    position: sticky;
   }
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+@media screen and (min-device-width: 601px) {
+  body {
+    width: 100%;
+    height: 100%;
+    background-image: url('/static/login-page-bground-photo-opacity40.png');
+    background-size: 100%;
+    position: fixed;
+  }
 }
 
-body {
-  margin-bottom: 60px;
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex: auto;
+  
+}
+
+.login-container {
+  width: 350px;
+  height: 600px;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+.imgcontainer {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 0 12px 0;
+}
+
+input[type=text], input[type=password] {
+  width: 90%;
+  margin: 10px 0px 10px 5%;
+  padding: 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.label-login-words {
+  margin-left: 5%;
+}
+
+.btn-login {
+  background-color: rgb(4, 170, 109);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+  .btn-login:hover {
+    opacity: 0.8;
+  }
+
+a {
+  color: rgb(7, 48, 33)
+}
+
+  a:link {
+    text-decoration: none;
+  }
+
+  a:visited {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    background: #c4ecc2;
+  }
+
+  a:active {
+    text-decoration: underline;
+  }
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 0 auto;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  align-content: center;
+/*  background-image: url('/static/login-page-bground-photo-opacity40.png');
+  background-size: 100%;
+  position: fixed;*/
+  margin-bottom: 10vh;
 }

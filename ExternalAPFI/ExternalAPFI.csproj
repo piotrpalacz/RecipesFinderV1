@@ -38,5 +38,9 @@
   <ItemGroup>
     <Folder Include="Areas\Identity\Pages\" />
     <Folder Include="Areas\Identity\Pages\Account\" />
+    <Folder Include="wwwroot\static\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\static\" />
   </ItemGroup>
 </Project>

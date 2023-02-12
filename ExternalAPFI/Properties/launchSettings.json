@@ -11,7 +11,7 @@
     "ExternalAPFI": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:11243",
+      "applicationUrl": "http://localhost:42672",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
