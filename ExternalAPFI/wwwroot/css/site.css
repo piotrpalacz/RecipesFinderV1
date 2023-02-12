@@ -38,7 +38,7 @@ a {
     height: 100%;
     background-image: url('/static/login-page-bground-photo-opacity40.png');
     background-size: 100%;
-    position: sticky;
+    position: static;
   }
 }
 
@@ -48,7 +48,7 @@ a {
     height: 100%;
     background-image: url('/static/login-page-bground-photo-opacity40.png');
     background-size: 100%;
-    position: fixed;
+    position: static;
   }
 }
 
@@ -59,6 +59,7 @@ a {
   display: flex;
   justify-content: center;
   flex: auto;
+  
   
 }
 
@@ -144,5 +145,5 @@ footer {
 /*  background-image: url('/static/login-page-bground-photo-opacity40.png');
   background-size: 100%;
   position: fixed;*/
-  margin-bottom: 10vh;
+  margin-bottom: 10%;
 }
